@@ -1,0 +1,88 @@
+*{
+  font-family: 'Lobster', cursive;;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+  body{
+    background-image: url("../img/Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+  }
+  #header{
+    min-width: 500px;
+    max-width: 1300px;
+    height: 200px;
+    /* background-color: #ffffff60; */
+    margin: auto;
+    margin-top: 0px;
+    color: rgb(228, 197, 161);
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+
+
+}
+#nadpis{
+    font-size: 150px;
+     padding-left: 6%;
+}
+#login{
+    margin-top: 50px;
+   /* float: left; */
+  margin-left: auto;
+  margin-right: auto;
+}
+#uzivatel{
+    
+    display: block;
+    margin: 50px;
+    text-align: center;
+}
+.uzivatel_button{
+font-size: 40px;
+margin: 0px 15px 15px 15px ;
+
+}
+
+.odhlasit_button{
+    font-size: 40px;
+    margin: 0px 15px 15px 15px ;
+}
+#uzivateljmeno{
+    font-size: 20px;
+}
+.login_text{
+    /* margin: 50px; */
+   
+}
+#registr_button{
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  float: right;
+}
+#main{
+  min-height: 700px;
+  min-width: 500px;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 0px;  
+  text-align: center;
+  color: rgb(228, 197, 161);
+
+}
+
+
+#zpet{
+  height: 150px; 
+  width:600px;
+   margin-top: 50px;
+   font-size: 50px;
+   border-radius: 50px;
+  background-color:rgb(228, 197, 161);
+}

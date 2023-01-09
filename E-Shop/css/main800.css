@@ -1,0 +1,32 @@
+#main{
+    grid-template-columns: 100%;
+    
+}
+
+
+#nadpis{
+    font-size: 100px;
+}
+#info_footer_in{
+    min-height: 150px;
+     width: 100%;
+     margin: auto;
+     display: grid;
+     grid-template-columns: 100%;
+    min-width: 500px;
+
+   
+   }
+   #header{
+    min-height: 500px;
+    grid-template-columns: 100%;
+    text-align: center;    
+   }    
+   #uzivatel{
+     margin: 10px;
+   }
+
+   #main_produkty{
+    grid-template-columns:100%;
+    display: grid;  
+}

@@ -1,0 +1,256 @@
+*{
+    font-family: 'Lobster', cursive;;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+body{
+    background-image: url("../img/Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+#header{
+    min-width: 500px;
+    max-width: 1300px;
+    height: 200px;
+    /* background-color: #ffffff60; */
+    margin: auto;
+    margin-top: 0px;
+    color: rgb(228, 197, 161);
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+
+
+}
+#nadpis{
+    font-size: 150px;
+     padding-left: 6%;
+}
+#login{
+    margin-top: 50px;
+   /* float: left; */
+  margin-left: auto;
+  margin-right: auto;
+}
+#uzivatel{
+    
+    display: block;
+    margin: 50px;
+    text-align: center;
+}
+.uzivatel_button{
+font-size: 40px;
+margin: 0px 15px 15px 15px ;
+
+}
+
+.odhlasit_button{
+    font-size: 40px;
+    margin: 0px 15px 15px 15px ;
+}
+#uzivateljmeno{
+    font-size: 20px;
+}
+.login_text{
+    /* margin: 50px; */
+   
+}
+.kosik_header{
+    font-size: 60px;
+    margin-top: 50px;
+    color: rgb(228, 197, 161);
+    
+
+}
+#main{
+    min-height: 700px;
+    min-width: 500px;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;  
+    grid-template-columns: 25% 75%;
+   
+}
+#main_produkty{
+    grid-template-columns:33% 33% 33%;
+    display: grid;  
+}
+#navigace{
+    
+    float: left;
+    margin: 15px;
+   
+    height: 600px;
+}
+.navigace{
+    border-style: solid;
+    height: 55px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    
+    background-color: rgba(252, 252, 252, 0.418);
+}
+.navigace:hover{
+    background-color: rgba(243, 150, 63, 0.418);
+}
+.produkt{
+    background-color: rgba(252, 252, 252, 0.418);
+    margin: 15px;
+    border-radius: 35px;
+    height: 600px;
+
+}
+.produkt:hover{
+   border:solid black 3px;
+   background-color: rgba(243, 150, 63, 0.418);
+
+   margin: 0px;
+   
+   /* height: 600px; */
+}
+.produkt_image{ 
+    width: 250px;
+    height: 370px;
+    /* background-image: url("../img/image.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    margin: auto;
+    margin-top: 10px;
+}
+.obrazek{
+    width: 250px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.produkt_name{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font:bold;
+    color: black;
+    text-decoration: none;
+}
+.produkt_price{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 20px;
+    font:bold;
+    color: black;
+    text-decoration: none;
+}
+.produkt_do_kosiku{
+    text-align: center;
+    margin-top: 7px;
+    
+  
+}
+.produkt_do_kosiku_button{
+    background-color: rgb(170, 133, 107);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.produkt_do_kosiku_button:hover{    
+   
+    font-weight: bold;
+    background-color: rgb(146, 113, 89);
+}
+
+.oblibeny_produkt{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 60px;
+}
+
+/* .oblibeny_produkt_button{
+    
+
+} */
+
+.oblibeny_produkt_button:hover{    
+    font-size: 80px;
+    font-weight: bold;
+    
+}
+
+#Odkaz_pridatprodukt{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+}
+#info_footer{
+    min-height: 150px;
+    min-width: 500px;
+    width: 100%;
+    margin: auto;
+   background-color:rgba(155, 133, 109, 0.45); 
+}
+#info_footer_in{
+   min-height: 150px;
+    width: 45%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+
+}
+
+.kontakty{
+    margin-top: 20px;
+}
+.kontakt_span{
+    display: block;
+}
+
+
+
+@media screen and (max-width: 1250px) and (min-width:900px) {
+#main{
+    grid-template-columns: 100%
+    
+}
+#info_footer_in{
+    min-height: 150px;
+     width: 100%;
+     margin: auto;
+     display: grid;
+     grid-template-columns: 33% 34% 33%;
+   
+   }
+   #header{
+    min-width: 500px;
+    max-width: 1300px;
+    min-height: 400px;
+    /* background-color: #ffffff60; */
+    margin: auto;
+    margin-top: 0px;
+    color: rgb(228, 197, 161);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    
+
+
+}
+#main_produkty{
+    grid-template-columns:50% 50%;
+    display: grid;  
+}
+.kosik_header{
+margin: auto;
+} 
+
+};
+
+
+

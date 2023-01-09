@@ -1,0 +1,213 @@
+*{
+    font-family: 'Lobster', cursive;;
+  }
+  
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+body{
+    background-image: url("../img/Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+#header{
+    min-width: 500px;
+    max-width: 1300px;
+    height: 200px;
+    /* background-color: #ffffff60; */
+    margin: auto;
+    margin-top: 0px;
+    color: rgb(228, 197, 161);
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+
+
+}
+#nadpis{
+    font-size: 150px;
+     padding-left: 6%;
+}
+#login{
+    margin-top: 50px;
+   /* float: left; */
+  margin-left: auto;
+  margin-right: auto;
+}
+#uzivatel{
+    
+    display: block;
+    margin: 50px;
+    text-align: center;
+}
+.uzivatel_button{
+font-size: 40px;
+margin: 0px 15px 15px 15px ;
+
+}
+
+.odhlasit_button{
+    font-size: 40px;
+    margin: 0px 15px 15px 15px ;
+}
+#uzivateljmeno{
+    font-size: 20px;
+}
+.login_text{
+    /* margin: 50px; */
+   
+}
+.kosik_header{
+    font-size: 60px;
+    margin-top: 50px;
+    color: rgb(228, 197, 161);
+    
+
+}
+#main{
+    min-height: 700px;
+   
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+   
+}
+.objednavka{
+margin: auto;
+}
+#tabulka_objednavek{
+margin: auto;
+background-color:rgb(228, 197, 161);
+text-align: center;
+border-radius: 25px;
+}
+.radek_objednavky{
+    height: 50px;
+}
+.objednavka_cislo{
+    width: 200px;
+    height: 50px;
+}
+.adresa{
+    width: 300px;
+    height: 50px;   
+}
+.postup_objednavky{
+    height: 50px;
+    width: 200px;
+}
+.cena_objednavky{
+    width: 200px;
+    height: 50px;
+
+}
+.hodnoceni{
+    cursor: pointer;
+    font-size: 30px;
+    margin-bottom:30px;
+    margin-top:30px;
+
+}
+#prumer_hodnoceni{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+#info_footer{
+    min-height: 150px;
+    width: 100%;
+    margin: auto;
+    
+   background-color:rgba(155, 133, 109, 0.45); 
+}
+#info_footer_in{
+   min-height: 150px;
+    width: 45%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+
+}
+
+.kontakty{
+    margin-top: 20px;
+}
+.kontakt_span{
+    display: block;
+}
+
+
+@media screen and (max-width: 1250px) and (min-width:900px) {
+    .thisprodukt_info{
+        grid-template-columns: 50% 50%;
+        padding: 50px;
+        
+    }
+    .produkt_image_right{
+      display: none;
+    }
+    #info_footer_in{
+      min-height: 150px;
+       width: 100%;
+       margin: auto;
+       display: grid;
+       grid-template-columns: 33% 34% 33%;
+     
+     }
+     #header{
+      min-width: 500px;
+      max-width: 1300px;
+      min-height: 400px;
+      /* background-color: #ffffff60; */
+      margin: auto;
+      margin-top: 0px;
+      color: rgb(228, 197, 161);
+      display: grid;
+      grid-template-columns: 50% 50%;
+      text-align: center;
+      
+  
+  
+  }
+  .kosik_header{
+  margin: auto;
+  }  
+  
+  }
+  @media screen and (max-width: 900px)  {
+    .thisprodukt_info{
+        grid-template-columns: 100%
+        
+    }
+    .produkt_image_right{
+      display: none;
+    }
+    .produkt_image{
+      margin-bottom: 20px;
+    }
+    #info_footer_in{
+      min-height: 150px;
+       width: 100%;
+       margin: auto;
+       display: grid;
+       grid-template-columns: 100%;
+     
+     }
+     #header{
+         
+      min-height: 500px;
+      grid-template-columns: 100%;
+      text-align: center;
+  
+      
+     }
+     #nadpis{
+        font-size: 100px;
+        padding-left: 6%;
+    }
+     #uzivatel{
+       margin: 10px;
+     }
+    }
